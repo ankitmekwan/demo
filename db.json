@@ -1,14 +1,165 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   chats: {
+      id: 1,
+      label: 'Chats',
+      new_group: true,
+      new_chat: true,
+      new_friend: false,
+      data: [
+         {
+            id: 1,
+            name: 'Patsy Paulton',
+            status: 'Traditional heading elscas sdscsd sdcsdsc',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: true,
+            newMessageCount: 2,
+            avatarStatus: 'avatar-state-success'
+         },
+         {
+            id: 2,
+            name: 'Karl Hubane',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 3,
+            name: 'Entertainment Group',
+            status: '<strong>Maher Ruslandi: </strong>Hello!!!',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 4,
+            name: 'Jennica Kindred',
+            status: 'I know how important this file is to you. You can trust me ;)',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false,
+            avatarStatus: 'avatar-state-warning'
+         },
+         {
+            id: 5,
+            name: 'Marvin Rohan',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 6,
+            name: 'Frans Hanscombe',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         }
+      ]
+   },
+   friends: {
+      id: 2,
+      label: 'Friends',
+      new_group: false,
+      new_chat: false,
+      new_friend: true,
+      data: [
+         {
+            id: 1,
+            name: 'Harrietta Souten',
+            status: 'Traditional heading elscas sdscsd sdcsdsc',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 2,
+            name: 'Aline McShee',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 3,
+            name: 'Brietta Blogg',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 4,
+            name: 'Karl Hubane',
+            status: 'I know how important this file is to you. You can trust me ;)',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 5,
+            name: 'Jillana Tows',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 6,
+            name: 'Alina Derington',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 7,
+            name: 'Stevy Kermeen',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 8,
+            name: 'Gloriane Shimmans',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 9,
+            name: 'Bernhard Perrett',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         }
+      ]
+   },
+   favorites: {
+      id: 3,
+      label: 'Favourites',
+      new_group: false,
+      new_chat: false,
+      new_friend: false,
+      data: [
+         {
+            id: 1,
+            name: 'Jennica Kindred',
+            status: 'Traditional heading elscas sdscsd sdcsdsc',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 2,
+            name: 'Marvin Rohan',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 3,
+            name: 'Frans Hanscombe',
+            status: 'Lorem ipsum dolor sitsdc sdcsdc sdcsdcs',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         },
+         {
+            id: 4,
+            name: 'Karl Hubane',
+            status: 'I know how important this file is to you. You can trust me ;)',
+            imageUrl: 'https://via.placeholder.com/150',
+            newMessage: false
+         }
+      ]
+   }
 }
