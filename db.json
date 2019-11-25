@@ -12,8 +12,8 @@
             "status": "Traditional heading elscas sdscsd sdcsdsc",
             "imageUrl": "https://via.placeholder.com/150",
             "newMessage": true,
-            newMessageCount: 2,
-            avatar"status": "avatar-state-success"
+            "newMessageCount": 2,
+            "avatarStatus": "avatar-state-success"
          },
          {
             "id": 2,
@@ -35,7 +35,7 @@
             "status": "I know how important this file is to you. You can trust me ;)",
             "imageUrl": "https://via.placeholder.com/150",
             "newMessage": false,
-            avatar"status": "avatar-state-warning"
+            "avatarStatus": "avatar-state-warning"
          },
          {
             "id": 5,
